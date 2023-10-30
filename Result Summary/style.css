@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    width: 1440px;
+    background-color: hsl(54, 25%, 92%);
+    display: flex;
+    justify-content:center;
+}
+.cards {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 60px;
+    background-color:  White: hsl(0, 0%, 100%);
+}
+.card1 {
+    background-color: hsl(241, 81%, 54%);
+    width: 260px;
+    height: 300px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.head {
+    color: hsl(222, 77%, 92%);
+}
+.circle {
+    width: 140px;
+    height: 200px;
+    padding: 30px 10px;
+    margin-top: 10px;
+    background-color:hsl(256, 72%, 46%, 1);
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.num {
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+}
+.fraction {
+    color: hsl(222, 77%, 92%);
+}
+
+.down {
+    width: 225px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    color: hsl(222, 77%, 92%);
+}
+h2 {
+    color: hsl(0, 0%, 100%);;
+}
+.card2 {
+    width: 350px;
+    width: 260px;
+    height: 300px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin-left: -180px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    
+}
+.c2_content {
+    margin: 10px 0;
+}
+.item-number {
+    margin-left: 50px;
+    color: black;
+
+}
+.item-number1 {
+    margin-left: 60px;
+    color: black;
+}
+.reaction
+ {
+    margin: 8px 0;
+    color: hsl(0, 100%, 67%);
+    background-color:hsl(0, 64%, 95%);
+    padding: 6px;
+    border-radius: 10px;
+}
+.item-name {
+    margin-left: 30px;
+}
+.item-name1 {
+    margin-left: 32px;
+}
+.memory {
+    margin: 10px 0;
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(0, 64%, 95%);
+    padding: 6px;
+    border-radius: 10px;
+}
+.verbal {
+    margin: 10px 0;
+    color: hsl(166, 100%, 37%);
+    background-color:hsl(164, 45%, 94%);
+    padding: 6px;
+    border-radius: 10px;
+}
+.visual {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 75%, 86%);
+    padding: 6px;
+    border-radius: 10px;
+}
+button {
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+    border: none;
+    color:hsl(222, 77%, 92%);
+    background-color: hsl(241, 81%, 54%);
+}
+.first {
+    color: rgb(43, 42, 42);
+}
