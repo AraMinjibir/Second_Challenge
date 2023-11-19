@@ -2,52 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phone</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Desktop</title>
+    <link rel="stylesheet" href="mobile-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
 </head>
 <body>
-    <a href="index.html">Desktop</a>
-    <div class="container">
-        <div class="card1_1">
-            <div class="head">
-                <h3>Your Result</h3>
+    <div class="content">
+        <a href="index.html">Desktop</a>
+        <div class="cards"> 
+            <div class="card1">
+                <div class="head">
+                    <h3>Your Result</h3>
+                </div>
+                <div class="circle">
+                    <div class="num">76</div>
+                    <div class="fraction"><p class="per">Of 100</p></div>
+                </div>
+                <div class="down">
+                    <h2>Great</h2>
+                    <p>You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
             </div>
-            <div class="circle1">
-                <div class="num">76</div>
-                <div class="fraction"><p>Of 100</p></div>
-            </div>
-            <div class="down1">
-                <h2>Great</h2>
-                <p>You scored higher than 65% of the people who have taken these tests</p>
-            </div>
-        </div>
-        <div class="card2_2">
-            <h2 class="first1">Summary</h2>
+            <div class="card2">
+                <h2 class="first">Summary</h2>
                 <div class="c2_content">
                     <div class="reaction">
                         <label for="item-name" class="item-name"><i class="fas fa-bolt"></i> Reaction</label>
-
-                        <label for="item-number" class="item-number">80/100</label>
+                        <label for="item-number" id="item-number">
+                            <div id="value">80</div>
+                            <div id="operator">/</div>
+                            <div id="divisor">100</div>
+                        </label>
                     </div>
                     <div class="memory">
                         <label for="item-name" class="item-name">
                             <i class="fas fa-memory"></i> Memory
                           </label>
-                           
-                        <label for="item-number"class="item-number">92/100</label>
+                          
+                        <label for="item-number"class="item-number">
+                            <div id="value">92</div>
+                            <div id="operator"> /</div>
+                            <div id="divisor">100</div>
+                        </label>
                     </div>
                     <div class="verbal">
-                        <label for="item-name" class="item-name1"><i class="fas fa-comment"></i> Verbal</label> 
-                        <label for="item-number"class="item-number1">61/100</label>
+                        <label for="item-name" class="item-name"><i class="fa-regular fa-comment"></i> Verbal
+                        </label>                            
+                        <label for="item-number"class="item-number">
+                            <div id="value">61</div>
+                            <div id="operator">/</div>
+                            <div id="divisor">100</div>
+                        </label>
                     </div>
-                    <div class="visual1">
-                        <label for="item-name"class="item-name1"><i class="fa fa-eye"></i>Visual</label> 
-                        <label for="item-number"class="item-number1">72/100</label>
+                    <div class="visual">
+                        <label for="item-name"class="item-name"><i class="fa fa-eye"></i>Visual</label> 
+                        <label for="item-number" class="item-number">
+                            <div id="value">72</div>
+                            <div id="operator">/</div>
+                            <div id="divisor">100</div>
+                        </label>
                     </div>
-                    <button class="last">Continue</button>
+                    <button>Continue</button>
+                </div>
+            </div>
         </div>
     </div>
     
